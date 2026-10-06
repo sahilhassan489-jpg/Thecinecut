@@ -1,0 +1,1 @@
+const drawer=document.getElementById("drawer"), bag=document.getElementById("bagBtn"), close=document.getElementById("closeBag");bag.addEventListener("click",()=>drawer.classList.add("open"));close.addEventListener("click",()=>drawer.classList.remove("open"));document.addEventListener("keydown",e=>{if(e.key==="Escape")drawer.classList.remove("open")});
